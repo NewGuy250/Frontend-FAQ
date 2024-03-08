@@ -1,3 +1,4 @@
+
 //collapse menu
     var coll = document.getElementsByClassName("collapsible");
     var i;
@@ -23,11 +24,11 @@
             const icon = this.querySelector('.plus-or-minus');
             const iconSrc = icon.getAttribute('src');
             
-            // Toggle between icon-plus.svg and icon-minus.svg
-            if (iconSrc === '/assets/images/icon-plus.svg') {
-                icon.setAttribute('src', '/assets/images/icon-minus.svg');
+            // Toggle between icon-plus.png and icon-minus.png
+            if (iconSrc === 'assets/images/icon-plus.png') {
+                icon.setAttribute('src', 'assets/images/icon-minus.png');
             } else {
-                icon.setAttribute('src', '/assets/images/icon-plus.svg');
+                icon.setAttribute('src', 'assets/images/icon-plus.png');
             }
         });
     });
