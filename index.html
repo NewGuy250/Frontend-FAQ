@@ -5,35 +5,84 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-  <title>Frontend Mentor | Social links profile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+    
+  <title>Frontend Mentor | FAQ accordion</title>
 
+
+  <style>
+
+    
+  </style>
 </head>
-
 <body>
   <main>
-
-    <img src="assets/images/avatar-jessica.jpeg" id="profile-picture" alt="profile-picture">
-
-    <p id="name">Jessica Randall</p>
-
-    <p id="location">London, United Kingdom</p>
-
-    <p id="description">"Front-end developer and avid reader."</p>
-
-    <button>GitHub</button>
-    <button>Frontend Mentor</button>
-    <button>LinkedIn</button>
-    <button>Twitter</button>
-    <button>Instagram</button>
-    
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Daniel Nguyen</a>.
+    <!-- Title --->
+    <div class="page-title">
+      <img src="/assets/images/icon-star.svg">
+      <p class="title-text">FAQs</p>
     </div>
+    <!-- End --->
+
+    <!-- Button(s) that can open/collapse --->
+    <button class="collapsible">
+      <div class="button-container">
+        <div class="button-text">What is Frontend Mentor, and how will it help me?</div>
+        <img src="/assets/images/icon-plus.svg" class="plus-or-minus">
+      </div>
+    </button>
+    <!-- Content in Buttons --->
+    <div class="content">
+      <p>Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building.</p>
+    </div>
+
+    <!-- hr for design --->
+    <hr>
+
+    <button class="collapsible">
+      <div class="button-container">
+        <div class="button-text">Is Frontend Mentor free?</div>
+        <img src="/assets/images/icon-plus.svg" class="plus-or-minus">
+      </div>
+    </button>
+    <div class="content">
+      <p>Yes, Frontend Mentor offers both free and premium coding challenges, with the free option providing access to a range of projects suitable for all skill levels.</p>
+    </div>
+
+    <hr>
+
+    <button class="collapsible">
+      <div class="button-container">
+        <div class="button-text">Can I use Frontend Mentor projects in my portfolio?</div>
+        <img src="/assets/images/icon-plus.svg" class="plus-or-minus">
+      </div>
+    </button>
+    <div class="content">
+      <p>Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent way to showcase your skills to potential employers!</p>
+    </div>
+
+    <hr>
+
+    <button class="collapsible">
+      <div class="button-container">
+        <div class="button-text">How can I get help if I'm stuck on a Frontend Mentor challenge?</div>
+        <img src="/assets/images/icon-plus.svg" class="plus-or-minus">
+      </div>
+    </button>
+    <div class="content">
+      <p>The best place to get help is inside Frontend Mentor's Discord community. There's a help channel where you can ask questions and seek support from other community members.</p>
+    </div> 
+
   </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Daniel Nguyen</a>.
+  </div>
+
+
+  <script src="script.js"></script>
 </body>
 </html>
